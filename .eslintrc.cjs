@@ -35,6 +35,6 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
-    'prettier/prettier': ['warn', {}, { usePrettierrc: true }],
+    'prettier/prettier': 'warn',
   },
 };
